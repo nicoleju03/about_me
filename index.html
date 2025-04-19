@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Nicole Ju">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Bacasime+Antique&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Reem+Kufi&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <button id="theme-toggle">Change Theme</button>
+  </header>  
+  <section>
+    <h2>Introduction</h2>
+    <p>Who am I?</p>
+    <div class="intro-content">
+        <article class="intro-text-description">
+          <h4>Hello!</h4>
+            <p>
+                My name is Nicole Ju, and I'm a 4th year computer science major
+                at UCLA. I am super excited to graduate but will definitely miss the UCLA community 
+                and campus. Starting in August, I'll be working at Amazon in Seattle!
+            </p>
+            <p>
+                I enjoy trying new restaurants and cafes, playing badminton and 
+                pickleball, and going to the beach. I also love traveling (here is a picture
+                of me in Japan!)
+            </p>
+        </article>
+        <img src="nicole.png" alt="Nicole in Japan">
+        <article class="intro-text-facts">
+            <h4>
+                Here are some fun facts about me:
+            </h4>
+            <ol>
+                <li>I have a collection of over 50 enamel pins.</li>
+                <li>I can eat an entire mini watermelon in one sitting.</li>
+                <li>I go to a new cafe every week. My favorites:
+                  <ul class="inner-list">
+                      <li><a href="https://www.yelp.com/biz/stagger-coffee-los-angeles" target="_blank">Stagger</a></li>
+                      <li><a href="https://www.yelp.com/biz/stereoscope-coffee-los-angeles-2" target="_blank">Stereoscope</a></li>
+                      <li><a href="https://www.yelp.com/biz/3thyme-coffee-los-angeles-5" target="_blank">3thyme</a></li>
+                      <li><a href="https://www.yelp.com/biz/community-goods-los-angeles" target="_blank">Community Goods</a></li>
+                  </ul>
+                </li>
+            </ol>
+        </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Collage</h2>
+    <p>A look at my favorite college memories</p>
+    <div class="collage-grid">
+      <article class="collage-item">
+        <h4>Winning Collegiate Nationals with the UCLA Badminton Team in Boston!</h4>
+        <img src="nationals.png" alt="UCLA Badminton Nationals">
+      </article>
+      <article class="collage-item">
+        <h4>Creating this beautiful charcuterie board during a picnic in Malibu!</h4>
+        <img src="picnic.png" alt="Charcuterie board in Malibu">
+      </article>
+      <article class="collage-item">
+        <h4>Finding vintage photobooths with my roomies!</h4>
+        <img src="photobooth.png" alt="Photobooth strip">
+      </article>
+      <article class="collage-item">
+        <h4>Snowboarding for the first time at Big Bear!</h4>
+        <img src="snowboard.png" alt="Snowboarding at Big Bear">
+      </article>
+      <article class="collage-item highlight">
+        <h4>Running into the ocean in Santa Barbara at 50 degrees...</h4>
+        <img src="beach.png" alt="Santa Barbara beach">
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Suggestions</h2>
+    <p>Where should I visit?</p>
+    <form id="suggestions-form">
+      <fieldset>
+        <legend>Drop a Rec!</legend>
+        <div class="form-flexbox">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="nicole@example.com">
+          
+          <label for="place">Recommendation:</label>
+          <input type="text" id="place" name="place" required placeholder="A spot you love!">
+          
+          <label for="rating">Give it a rating:</label>
+          <input type="range" id="rating" name="rating" min="1" max="5">
+
+          <label for="comments">Any comments?</label>
+          <textarea id="comments" name="comments" rows="6" cols="50" placeholder="Add your thoughts (optional)"></textarea>
+
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
