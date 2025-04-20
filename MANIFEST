@@ -1,0 +1,53 @@
+ALL students complete this section:
+
+CHOICES
+(You are allowed to choose a feature for some of the requirements. Indicate on the line
+ which one you chose using the letter provided in the spec. Separate the letters with a comma
+ In some cases you will also need to tell us what you did)
+-------
+9a. text-shadow (for page title and section titles)
+9b. clamp and vw for the captions in the grid, and for the intro text when the screen is smaller than 480px
+12. a (linear gradient on submit button on form), b (box-shadow for image of myself and grid items), c (transform for change theme and submit buttons)
+18. b (::before/::after for page title)
+19. duplicate
+
+JAVASCRIPT
+(Please tells us what the JavaScript does e.g. "click on the green button and it does the following...")
+----------
+I retrieved the "Change Theme" button element and added an event listener on it that listens to clicks. Clicking the button toggles the class list of the body element to include/not include dark-mode. The CSS color variables are different for light-mode and dark-mode, so the colors on the page change in response to the click.
+
+
+
+NOTES TO STAFF
+(If there is anything you need to tell us, please use the section below)
+---------------
+On Chrome, the link doesn't show if it's been visited, but I've verified that it changes style in Safari (I believe there was a Piazza post about this and Professor said it was okay).
+
+
+
+ONLY modify this section if you implemented the requirements across 2 or more files.
+Otherwise, submit this file as is. PLEASE do not delete anything from this file.
+
+REQUIREMENT LOCATION
+(After the period, hit TAB and then enter the HTML page name where the requirement
+ was implemented)
+---------------------
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+ 7.
+ 8.
+ 9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.

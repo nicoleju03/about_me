@@ -41,14 +41,12 @@ body.dark-mode {
     --form-text-color: var(--dark-green);
 }
 
-
 header {
     margin: 0;
     padding: 10px;
     text-align: center;
     background-color: var(--header-bg);
 }
-
 
 h1 {
     margin: 0;
@@ -78,8 +76,7 @@ h1::before, h1::after {
     font-family: 'Nunito Sans';
     font-size: 0.9em;
     font-weight: bold;
-  }
-
+}
 #theme-toggle:hover{
     transform: scale(1.1);
 }
@@ -112,7 +109,6 @@ section {
     font-family: 'Lora', serif;;
 }
 
-
 section > p {
    color: var(--text-color); 
    display: inline;
@@ -136,8 +132,7 @@ h2 {
     }
     section > p {
         font-size: 1em;
-     }
-    
+     } 
 }
 
 .intro-content {
@@ -208,7 +203,6 @@ h2 {
         max-width: 300px;
     }
 }
-
 @media (max-width: 780px) {
     .intro-text-description {
         flex-basis: 100%;
@@ -218,7 +212,6 @@ h2 {
         margin-right: 10px;
     }
 }
-
 @media (max-width: 480px) {
     .intro-content {
         width: 100%;
@@ -266,6 +259,7 @@ h2 {
 .collage-item.highlight {
     grid-column: span 2;
 }
+
 .collage-item.highlight img{
     width: 100%;
     max-width: 700px;
@@ -290,7 +284,6 @@ h2 {
     .collage-item {
         font-size: clamp(0.8em, 3.3vw, 1em);
     }
-
 }
 
 #suggestions-form {
@@ -378,7 +371,6 @@ h2 {
     #suggestions-form input, #comments {
         font-size: 0.7em;
     }
-
 }
 
 
