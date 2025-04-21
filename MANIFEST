@@ -5,23 +5,23 @@ CHOICES
  which one you chose using the letter provided in the spec. Separate the letters with a comma
  In some cases you will also need to tell us what you did)
 -------
-9a. text-shadow (for page title and section titles)
-9b. clamp and vw for the captions in the grid, and for the intro text when the screen is smaller than 480px
-12. a (linear gradient on submit button on form), b (box-shadow for image of myself and grid items), c (transform for change theme and submit buttons)
-18. b (::before/::after for page title)
+9a. text-shadow (for the "About Me" heading and section headings)
+9b. I used clamp with vw for the captions in the grid, and for the intro text when the screen is smaller than 480px. This allowed the text to shrink as the the screen size decreased. I also used media queries and breakpoints to set responsive font sizes (in em) for various text elements.
+12. a (linear gradient on submit button in the form), b (box-shadow for the image of myself and grid items), c (transform to make the "Change Theme" and "Submit" buttons increase in size when hovered over)
+18. b (::before/::after for the "About Me" title)
 19. duplicate
 
 JAVASCRIPT
 (Please tells us what the JavaScript does e.g. "click on the green button and it does the following...")
 ----------
-I retrieved the "Change Theme" button element and added an event listener on it that listens to clicks. Clicking the button toggles the class list of the body element to include/not include dark-mode. The CSS color variables are different for light-mode and dark-mode, so the colors on the page change in response to the click.
+I retrieved the "Change Theme" button element and added an event listener on it that listens to clicks. Clicking the button toggles the class list of the body element to include/not include dark-mode. In the body.dark-mode CSS definition, I set the CSS color variables to different values, causing the colors on the page change in response to the click.
 
 
 
 NOTES TO STAFF
 (If there is anything you need to tell us, please use the section below)
 ---------------
-On Chrome, the link doesn't show if it's been visited, but I've verified that it changes style in Safari (I believe there was a Piazza post about this and Professor said it was okay).
+On Chrome, the links don't show if they've been visited, but I've verified that it changes style in Safari (I believe there was a Piazza post about this and Professor said it was okay).
 
 
 
